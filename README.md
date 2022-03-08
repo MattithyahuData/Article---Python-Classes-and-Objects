@@ -98,7 +98,7 @@ class Personinfo:
     # Function to print input name when called 
     def myfunc(self):
         ''''''
-        # From the class input this instance method prints a sentence 
+        # From the class input this instance method prints a sentence | Age variable converted to string for concatenation 
         print("Hello my name is " + self.fname + " " + self.lname + "and I am " + str(self.age))
 
 # Using class to create object 
@@ -106,6 +106,9 @@ personinfo_obj = Personinfo("John","Doe",30)
 
 # Calling instance function within class to get output 
 personinfo_obj.myfunc()
+
+## Output ## 
+Hello my name is John Doeand I am 30
 ```
 
 Thanks for making it to the end of this tutorial style article.
